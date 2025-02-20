@@ -1,0 +1,13 @@
+prefix=D:/MACE/venv/Library
+exec_prefix=D:/MACE/venv/Library
+libdir=D:/MACE/venv/Library/lib
+sharedlibdir=D:/MACE/venv/Library/lib
+includedir=D:/MACE/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
