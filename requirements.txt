@@ -2,5 +2,5 @@ gunicorn
 flask
 joblib
 numpy
-scikit-learn
+scikit-learn==1.5.1
 pandas
