@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MACE ML Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>MACE Gamma-Ray Classifier</h1>
+        <form id="eventForm">
+            <label>Enter Telescope Event Data:</label>
+            <input type="text" name="feature1" placeholder="fLength" required>
+            <input type="text" name="feature2" placeholder="fWidth" required>
+            <input type="text" name="feature3" placeholder="fSize" required>
+            <input type="text" name="feature4" placeholder="fConc" required>
+            <input type="text" name="feature5" placeholder="fConc1" required>
+            <input type="text" name="feature6" placeholder="fAsym" required>
+            <input type="text" name="feature7" placeholder="fM3Long" required>
+            <input type="text" name="feature8" placeholder="fM3Trans" required>
+            <input type="text" name="feature9" placeholder="fAlpha" required>
+            <input type="text" name="feature10" placeholder="fDist" required>
+            <button type="submit">Predict</button>
+        </form>
+        <h2 id="result"></h2>
+    </div>
+</body>
+</html>

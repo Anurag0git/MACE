@@ -38,7 +38,7 @@ print(classification_report(y_test, y_pred))
 print(confusion_matrix(y_test, y_pred))
 
 # Step 6: Save the Model
-joblib.dump(model, 'mace_ml_model.pkl')
-joblib.dump(scaler, 'scaler.pkl')
+joblib.dump(model, 'model/mace_ml_model.pkl')
+joblib.dump(scaler, 'model/scaler.pkl')
 
 print("Model saved successfully!")
