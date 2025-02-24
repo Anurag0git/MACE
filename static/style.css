@@ -1,28 +1,34 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #E0F7FA; /* Light cyan background */
     text-align: center;
     margin: 20px;
 }
+
 .container {
-    background: white;
+    background: #E0F2F1; /* Light teal background */
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 50%;
     margin: auto;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
+
 input, button {
     margin: 5px;
     padding: 10px;
     width: 90%;
+    border-radius: 10px;
+    border: 2px solid #B2DFDB; /* Light teal border */
 }
+
 button {
-    background: #007BFF;
+    background: #80CBC4; /* Light sea green background */
     color: white;
     border: none;
     cursor: pointer;
 }
+
 button:hover {
-    background: #0056b3;
+    background: #4DB6AC; /* Darker sea green on hover */
 }
