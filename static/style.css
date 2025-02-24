@@ -1,34 +1,39 @@
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #E0F7FA; /* Light cyan background */
+    background-color: #1a1a1a; /* Soft black background */
+    color: #f8f8f2; /* Light text */
     text-align: center;
     margin: 20px;
 }
 
 .container {
-    background: #E0F2F1; /* Light teal background */
+    background: #2c2c2c; /* Dark gray background */
     padding: 20px;
     border-radius: 15px;
     width: 50%;
     margin: auto;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0px 0px 15px rgba(255, 165, 0, 0.5); !* Orange shadow *!*/
 }
 
 input, button {
     margin: 5px;
-    padding: 10px;
+    padding: 15px; /* Larger padding */
     width: 90%;
-    border-radius: 10px;
-    border: 2px solid #B2DFDB; /* Light teal border */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ffb347; /* Soft orange border */
+    background-color: #ffcc80; /* Light orange background */
+    color: #1a1a1a; /* Dark text */
+    font-weight: bold; /* Bold text */
+    font-size: 1.1em; /* Slightly larger text */
 }
 
 button {
-    background: #80CBC4; /* Light sea green background */
-    color: white;
+    background: #ffab40; /* Soft orange background */
+    color: #1a1a1a; /* Dark text */
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background: #4DB6AC; /* Darker sea green on hover */
+    background: #ff9100; /* Darker orange on hover */
 }
